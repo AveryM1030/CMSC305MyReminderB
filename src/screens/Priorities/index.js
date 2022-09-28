@@ -9,7 +9,7 @@ const PrioritiesScreen = props => {
         <View style={styles.bottom}>
             <TouchableOpacity 
                 style={styles.button}
-                onPress={() => console.log('Add Priorities!')}
+                onPress={() => console.log('Add Priority!')}
                 >
                 <Text style={styles.buttonText}>Add Priorities</Text>
             </TouchableOpacity>
