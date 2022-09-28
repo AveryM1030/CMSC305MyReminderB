@@ -14,7 +14,7 @@ const RemindersScreen = props => {
 
   const navigation = useNavigation();
 
-  const [reminders, setReminder] = useState([]);
+  const [reminders, setReminders] = useState([]);
 
   useEffect(() => {
     const listener = navigation.addListener('focus', () => {

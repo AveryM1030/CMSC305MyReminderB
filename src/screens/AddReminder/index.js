@@ -68,7 +68,7 @@ const AddReminder = props => {
             />
         </View>
         <View style={styles.bottomContainer}>
-            <Pressable style={styles.button} onPress={onActorAdd}>
+            <Pressable style={styles.button} onPress={onReminderAdd}>
                 <Text style={styles.buttonText}>Add</Text>
             </Pressable>
         </View>

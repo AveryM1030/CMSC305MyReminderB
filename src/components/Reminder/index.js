@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import styles from './styles';
 
-const Reminder = props => {
+const Reminders = props => {
 
     const post = props.post;
 
@@ -25,4 +25,4 @@ const Reminder = props => {
   );
 };
 
-export default Reminder;
+export default Reminders;
