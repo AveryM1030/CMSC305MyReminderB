@@ -25,7 +25,7 @@ const AddReminder = props => {
         }
 
         if (!date){
-            alert('Please enter a date in format YYYY-MM-DD.');
+            alert('Please enter a date in format MM-DD-YYYY.');
             return;
         }
         
@@ -35,8 +35,7 @@ const AddReminder = props => {
             console.log('Error adding reminder ' + error);
         }
 
-        alert(Reminder + 'Added!');
-        navigation.navigate('Enter Reminder!');
+        alert(title + 'Added!');
     }
 
   return (

@@ -6,6 +6,8 @@ import { useNavigation } from '@react-navigation/native';
 
 const HomeScreen = () => {
 
+  const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
       <SafeAreaView style={{flex: 0.0}} />
