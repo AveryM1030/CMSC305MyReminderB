@@ -30,7 +30,7 @@ const HomeScreen = () => {
       <View style={styles.bottom}>
         <Pressable
           style={styles.button}
-          onPress={() => console.log('Get Reminders!')}>
+          onPress={() => navigation.navigate('Get Reminders!')}>
           <Text style={styles.buttonText}>Get Reminders!</Text>
         </Pressable>
       </View>
